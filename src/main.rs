@@ -1,5 +1,3 @@
-//#![cfg(feature = "dynamodb")]
-
 extern crate rusoto_core;
 extern crate rusoto_dynamodb;
 
@@ -113,6 +111,7 @@ async fn get_dynamodb_item(
     table_name: &str,
     keys: HashMap<String, AttributeValue>,
 ) -> HashMap<String, String> {
+
     let mut return_map: HashMap<String, String> = HashMap::new();
 
     let mut item_request = GetItemInput::default();
