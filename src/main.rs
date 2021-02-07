@@ -9,6 +9,7 @@ use std::str;
 use rusoto_core::Region;
 use rusoto_dynamodb::{
     AttributeValue, DescribeTableInput, DynamoDb, DynamoDbClient, GetItemInput, ListTablesInput,
+    PutItemInput,
 };
 
 #[tokio::main]
@@ -49,7 +50,55 @@ async fn main() {
     );
     let item_return = get_dynamodb_item(&client, "SensorData", key).await;
     println!("Item: {:?}", item_return);
+
+    // Put an item to the table
+    println!("\nExample: {} Starting...\n", "Put DynamoDb Item");
+    // The Rusoto project shows using this but it doesn't exist in the code.  I don't understand but we'll use a HashMap instead...
+    //let mut item = PutItemInputAttributeMap::default();
+    let mut item: HashMap<String, AttributeValue> = HashMap::new();
+    item.insert(
+        String::from("document_id"),
+        AttributeValue {
+            s: Some(String::from("1234567890")), // In this case SensorId is an "S"
+            ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
+        },
+    );
+    item.insert(
+        String::from("creation_date"),
+        AttributeValue {
+            s: Some(String::from("2021-02-06")), // In this case SensorId is an "S"
+            ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
+        },
+    );
+    item.insert(
+        String::from("customer_account_id"),
+        AttributeValue {
+            s: Some(String::from("ABCD1234")), // In this case SensorId is an "S"
+            ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
+        },
+    );
+
+    put_dynamodb_item(&client, "credit_card", item).await;
 }
+
+// Function to put an item into a DynamoDb table
+async fn put_dynamodb_item(
+    client: &DynamoDbClient,
+    table_name: &str,
+    item: HashMap<String, AttributeValue>,
+) {
+    let mut input = PutItemInput::default();
+
+    input.item = item;
+    input.table_name = table_name.to_string();
+
+    client.put_item(input).await;
+    // {
+    //     Ok(output) => println!("Output: {:?}", output),
+    //     Err(error) => println!("Error: {:?}", error)
+    // }
+}
+
 // Function to get an item from a DynamoDb Table
 //
 // Output: GetItemOutput {
