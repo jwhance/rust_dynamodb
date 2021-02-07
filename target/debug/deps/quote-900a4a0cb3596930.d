@@ -1,0 +1,13 @@
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\quote-900a4a0cb3596930.rmeta: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ext.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\format.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ident_fragment.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\to_tokens.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\runtime.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\spanned.rs
+
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\libquote-900a4a0cb3596930.rlib: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ext.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\format.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ident_fragment.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\to_tokens.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\runtime.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\spanned.rs
+
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\quote-900a4a0cb3596930.d: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ext.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\format.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ident_fragment.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\to_tokens.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\runtime.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\spanned.rs
+
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\lib.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ext.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\format.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\ident_fragment.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\to_tokens.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\runtime.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\quote-1.0.8\src\spanned.rs:

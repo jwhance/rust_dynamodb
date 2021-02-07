@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=C:\Users\jwh20\rust\dynamodb\target\debug\build\typenum-8da93ba37440d453\out\consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=C:\Users\jwh20\rust\dynamodb\target\debug\build\typenum-8da93ba37440d453\out\op.rs

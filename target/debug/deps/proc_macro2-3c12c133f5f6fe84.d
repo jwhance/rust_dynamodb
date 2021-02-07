@@ -1,0 +1,12 @@
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\proc_macro2-3c12c133f5f6fe84.rmeta: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\marker.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\parse.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\detection.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\fallback.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\wrapper.rs
+
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\libproc_macro2-3c12c133f5f6fe84.rlib: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\marker.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\parse.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\detection.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\fallback.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\wrapper.rs
+
+C:\Users\jwh20\rust\dynamodb\target\debug\deps\proc_macro2-3c12c133f5f6fe84.d: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\marker.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\parse.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\detection.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\fallback.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\wrapper.rs
+
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\lib.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\marker.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\parse.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\detection.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\fallback.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\proc-macro2-1.0.24\src\wrapper.rs:

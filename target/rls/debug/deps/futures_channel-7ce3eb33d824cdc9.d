@@ -1,0 +1,10 @@
+c:\Users\jwh20\rust\dynamodb\target\rls\debug\deps\futures_channel-7ce3eb33d824cdc9.rmeta: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lock.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\mod.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\queue.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\sink_impl.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\oneshot.rs
+
+c:\Users\jwh20\rust\dynamodb\target\rls\debug\deps\futures_channel-7ce3eb33d824cdc9.d: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lock.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\mod.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\queue.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\sink_impl.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\oneshot.rs
+
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lib.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\lock.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\mod.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\queue.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\mpsc\sink_impl.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\futures-channel-0.3.12\src\oneshot.rs:

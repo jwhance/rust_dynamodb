@@ -1,0 +1,1 @@
+C:\Users\jwh20\rust\rust_dynamodb\target\debug\dynamodb.exe: C:\Users\jwh20\rust\rust_dynamodb\src\main.rs C:\Users\jwh20\rust\rust_dynamodb\target\debug\build\rusoto_core-cfe138bb99327a1d\out\user_agent_vars.rs

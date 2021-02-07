@@ -1,0 +1,13 @@
+c:\Users\jwh20\rust\dynamodb\target\rls\debug\deps\tracing-d3c8cd8d197e9c4c.rmeta: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\macros.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\dispatcher.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\field.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\instrument.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\level_filters.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\span.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\stdlib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\subscriber.rs
+
+c:\Users\jwh20\rust\dynamodb\target\rls\debug\deps\tracing-d3c8cd8d197e9c4c.d: C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\lib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\macros.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\dispatcher.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\field.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\instrument.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\level_filters.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\span.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\stdlib.rs C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\subscriber.rs
+
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\lib.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\macros.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\dispatcher.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\field.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\instrument.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\level_filters.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\span.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\stdlib.rs:
+C:\Users\jwh20\.cargo\registry\src\github.com-1ecc6299db9ec823\tracing-0.1.23\src\subscriber.rs:
