@@ -7,7 +7,7 @@ use std::str;
 use rusoto_core::Region;
 use rusoto_dynamodb::{
     AttributeValue, DescribeTableInput, DynamoDb, DynamoDbClient, GetItemInput, ListTablesInput,
-    PutItemInput,
+    PutItemInput, QueryInput,
 };
 
 #[tokio::main]
@@ -64,7 +64,7 @@ async fn main() {
     item.insert(
         String::from("creation_date"),
         AttributeValue {
-            s: Some(String::from("2021-02-06")), // In this case SensorId is an "S"
+            s: Some(String::from("2021-02-07")), // In this case SensorId is an "S"
             ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
         },
     );
@@ -77,6 +77,44 @@ async fn main() {
     );
 
     put_dynamodb_item(&client, "credit_card", item).await;
+
+    //
+    // Try a DynamoDb Query
+    // aws dynamodb query --table-name credit_card
+    //      --key-condition-expression "document_id = :document_id AND creation_date = :creation_date"
+    //      --expression-attribute-values "{"":document_id"":{""S"":""1234567890""}, "":creation_date"": {""S"":""2021-02-06""}}"
+    //
+    println!("\nExample: {} Starting...\n", "DynamoDb Query");
+
+    let mut query_input = QueryInput::default();
+    query_input.table_name = String::from("credit_card");
+    query_input.key_condition_expression = Some(String::from(
+        "document_id = :document_id AND creation_date >= :creation_date",
+    ));
+
+    let mut attribute_values: HashMap<String, AttributeValue> = HashMap::new();
+    attribute_values.insert(
+        String::from(":document_id"),
+        AttributeValue {
+            s: Some(String::from("1234567890")), // In this case SensorId is an "S"
+            ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
+        },
+    );
+    attribute_values.insert(
+        String::from(":creation_date"),
+        AttributeValue {
+            s: Some(String::from("2021-02-06")), // In this case SensorId is an "S"
+            ..Default::default() // The rest of the fields in the AttributeValue struct are set to default
+        },
+    );
+    query_input.expression_attribute_values = Some(attribute_values);
+
+    match client.query(query_input).await {
+        Ok(output) => {
+            println!("Output: {:?}", output);
+        }
+        Err(error) => println!("Error: {:?}", error),
+    }
 }
 
 // Function to put an item into a DynamoDb table
@@ -111,7 +149,6 @@ async fn get_dynamodb_item(
     table_name: &str,
     keys: HashMap<String, AttributeValue>,
 ) -> HashMap<String, String> {
-
     let mut return_map: HashMap<String, String> = HashMap::new();
 
     let mut item_request = GetItemInput::default();
