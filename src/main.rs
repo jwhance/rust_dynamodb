@@ -1,10 +1,12 @@
 extern crate rusoto_core;
+extern crate rusoto_credential;
 extern crate rusoto_dynamodb;
 
 use std::collections::HashMap;
 use std::str;
 
 use rusoto_core::Region;
+use rusoto_credential::ProfileProvider;
 use rusoto_dynamodb::{
     AttributeValue, DescribeTableInput, DynamoDb, DynamoDbClient, GetItemInput, ListTablesInput,
     PutItemInput, QueryInput,
@@ -12,6 +14,9 @@ use rusoto_dynamodb::{
 
 #[tokio::main]
 async fn main() {
+    let mut credentials = ProfileProvider::new().unwrap();
+    credentials.set_profile("jwh");
+
     println!("Starting DynamoDb Examples");
     let client = DynamoDbClient::new(Region::UsEast1);
 

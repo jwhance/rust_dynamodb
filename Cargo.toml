@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 tokio = "1.2.0"
 rusoto_core = {version = "0.46.0"}
+rusoto_credential = {version = "0.46.0"}
 rusoto_dynamodb = {version = "0.46.0", optional = false}
 
 [features]
