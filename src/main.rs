@@ -133,11 +133,11 @@ async fn put_dynamodb_item(
     input.item = item;
     input.table_name = table_name.to_string();
 
-    client.put_item(input).await;
-    // {
-    //     Ok(output) => println!("Output: {:?}", output),
-    //     Err(error) => println!("Error: {:?}", error)
-    // }
+    match client.put_item(input).await
+    {
+        Ok(output) => println!("Output: {:?}", output),
+        Err(error) => println!("Error: {:?}", error)
+    }
 }
 
 // Function to get an item from a DynamoDb Table
